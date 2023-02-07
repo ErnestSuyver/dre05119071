@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="M5,5 l990,0 l0,990 l-990,0 Z M5,5" fill="rgb(191,191,191)" transform="matrix(1,0,0,-1,0,1000)"/>
+ <defs>
+  <filter height="1000%" id="shadow15" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(255,255,255)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow15_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(255,255,255)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M463.39,268.31 c48.82,24.41,48.82,63.98,0,88.39 c-48.82,24.41,-127.96,24.41,-176.78,0 c-48.82,-24.41,-48.82,-63.98,-0.0,-88.39 c48.82,-24.41,127.96,-24.41,176.78,0 Z M463.39,268.31" fill="rgb(216,114,38)" filter="url(#shadow15)" stroke="rgb(255,255,255)" stroke-width="25" transform="matrix(1.0,0.0,0.0,-1.0,125.0,937.5)"/>
+</svg>

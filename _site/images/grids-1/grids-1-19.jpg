@@ -1,0 +1,41 @@
+#raster
+
+
+# colors
+
+# fill(r, g, b)
+# fill(r, g, b, alpha)
+# fill(grayvalue)
+# fill(grayvalue, alpha)
+# fill(None)
+
+# stroke(r, g, b)
+# stroke(r, g, b, alpha)
+# stroke(grayvalue)
+# stroke(grayvalue, alpha)
+# stroke(None)
+
+
+#constant stroke width
+#constand transparency
+#but random stroke and fill colors
+
+dia = 100
+for yFactor in range(10):
+    posY = yFactor * dia
+    for xFactor in range(10):
+        posX = xFactor * dia
+#invulling van het raster
+        d = random() * dia
+        x = posX + (dia - d) / 2
+        y = posY + (dia - d) / 2
+        fill(random(),random(),random())
+        strokeWidth(8)
+        stroke(random(), random(), random())
+        oval(x,y,d,d)
+
+# een variant
+# newPage(100,100)
+# size = 10
+# for i in range(10):
+#     rect(i * size, i * size, Size, Size)

@@ -1,0 +1,24 @@
+#toverbal
+
+nr_frames = 3
+
+for frame in range(nr_frames):
+    newPage(500, 500)
+    frameDuration(1/20)
+
+    fill(0, 1, 1, 0.8)
+    rect(0, 0, width(), height())
+
+    ball_dia = width() / 8
+
+    #translate(nr_frames / ball_dia * 10)
+    translate(ball_dia * frame)
+
+    fill(1, 0, 1, 0.9)
+    oval(width() / 2 - ball_dia / 2, width() / 2 - ball_dia / 2, ball_dia, ball_dia)
+
+#we zouden nu een groeiende toverbal kunnen maken:
+#voor elk frame erbij een grotere cirkel in een andere kleur
+#kleur en omvang kunnen we programmatisch laten groeien
+
+saveImage("toverbal.gif")

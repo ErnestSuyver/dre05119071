@@ -1,0 +1,360 @@
+newPage()
+# page 1
+
+w = 1000
+h = 1000
+rows = 4
+cols = 2
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-1.jpeg")
+
+newPage()
+# page 2
+
+w = 1000
+h = 1000
+rows = 4
+cols = 2
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 2
+cols = 4
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-2.jpeg")
+
+newPage()
+# page 3
+
+w = 1000
+h = 1000
+rows = 8
+cols = 4
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 4
+cols = 8
+ 
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-3.jpeg")
+
+newPage()
+# page 4
+
+w = 1000
+h = 1000
+rows = 5
+cols = 3
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 4
+cols = 8
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-4.jpeg")
+
+newPage()
+# page 5
+
+w = 1000
+h = 1000
+rows = 5
+cols = 3
+ 
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 3
+cols = 17
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-5.jpeg")
+
+newPage()
+# page 6
+
+w = 1000
+h = 1000
+rows = 31
+cols = 3
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 3
+cols = 17
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-6.jpeg")
+
+newPage()
+# page 7
+
+w = 1000
+h = 1000
+rows = 31
+cols = 3
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 3
+cols = 31
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-7.jpeg")
+
+newPage()
+# page 8
+
+w = 1000
+h = 1000
+rows = 77
+cols = 7
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 3
+cols = 31
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-8.jpeg")
+
+newPage()
+# page 9
+
+w = 1000
+h = 1000
+rows = 5
+cols = 3
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 3
+cols = 5
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-9.jpeg")
+
+newPage()
+# page 10
+
+w = 1000
+h = 1000
+rows = 10
+cols = 10
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 5
+cols = 5
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-10.jpeg")
+
+newPage()
+# page 11
+
+w = 1000
+h = 1000
+rows = 2
+cols = 3
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 7
+cols = 9
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-11.jpeg")
+
+newPage()
+# page 12
+
+w = 1000
+h = 1000
+rows = 8
+cols = 4
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+rows = 10
+cols = 6
+  
+for currentCol in range(cols):
+    dotWidth = w / (cols + (cols + 1))
+    x = dotWidth + currentCol * (dotWidth + dotWidth)
+    for currentRow in range(rows):
+        dotHeight = w / (rows + (rows + 1))
+        y = dotHeight + currentRow * (dotHeight + dotHeight)
+        
+        rect(x, y, dotWidth, dotHeight)
+
+saveImage("checquers-1-12.jpeg")
+

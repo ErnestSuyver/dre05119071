@@ -1,0 +1,197 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+newPage()
+
+w = 100
+h = w
+r = 1
+s = 1
+t1 = 1
+t2 = t1
+n = 3
+f = -170
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(f * t1,f * t2)
+       tree(n-1)
+       restore()
+       
+       save()
+       translate(w, h)
+       rotate(-21 * r)
+       scale(s)
+       translate(f * t1,f * t2)
+       tree(n-1)
+       restore()
+ 
+#if you translate the second set left and down at the same time,you get a funny "melting" effect 
+       
+translate(width()/2 - w/2, height()/2 - h/2)
+tree(n)
+
+saveImage('fractals-2variant3-5-' + timestr + '.jpg')
+
+
+newPage()
+
+w = 100
+h = w
+r = 1
+s = 1
+t1 = 1
+t2 = t1
+n = 3
+f = -170
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(f * t1,f * t2)
+       tree(n-1)
+       restore()
+       
+       save()
+       translate(w, h)
+       rotate(-1 * r)
+       scale(s)
+       translate(f * t1,f * t2)
+       tree(n-1)
+       restore()
+ 
+#if you translate the second set left and down at the same time,you get a funny "melting" effect 
+       
+translate(width()/2 - w/2, height()/2 - h/2)
+tree(n)
+
+#saveImage('fractals-2variant3-4-' + timestr + '.jpg')
+
+newPage()
+
+w = 100
+h = w
+r = 1
+s = 1
+t1 = 1
+t2 = t1
+n = 3
+f = -50
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(t1,t2)
+       tree(n-1)
+       restore()
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(f * t1,f * t2)
+       tree(n-1)
+       restore()
+ 
+#if you translate the second set left and down at the same time,you get a funny "melting" effect 
+       
+translate(width()/2 - w/2, height()/2 - h/2)
+tree(n)
+
+# saveImage('fractals-2variant3-3-' + timestr + '.jpg')
+
+newPage()
+
+w = 100
+h = w
+r = 1
+s = 1
+t1 = 1
+t2 = t1
+n = 3
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(t1,t2)
+       tree(n-1)
+       restore()
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(-180 * t1,t2)
+       tree(n-1)
+       restore()
+ 
+#if you translate the second set left,you get a funny "melting" effect 
+       
+translate(width()/2 - w/2, height()/2 - h/2)
+tree(n)
+
+# saveImage('fractals-2variant3-2-' + timestr + '.jpg')
+
+
+newPage()
+
+w = 100
+h = w
+r = 1
+s = 1
+t1 = 1
+t2 = t1
+n = 3
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(t1,t2)
+       tree(n-1)
+       restore()
+       
+       save()
+       translate(w, h)
+       rotate(r)
+       scale(s)
+       translate(t1,-180 * t2)
+       tree(n-1)
+       restore()
+ 
+#if you translate the second set down,you get a funny "melting" effect 
+       
+translate(width()/2 - w/2, height()/2 - h/2)
+tree(n)
+
+# saveImage('fractals-2variant3-1-' + timestr + '.jpg')

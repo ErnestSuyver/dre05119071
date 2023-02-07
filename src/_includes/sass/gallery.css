@@ -1,0 +1,215 @@
+/*this is for section 1 of the gallery page*/
+
+.s1 {
+    width: 2850px; /*4x600 and 3x100 + 50 */
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex; 
+    flex-direction: row;
+    height: 600px;
+  }
+  
+.s1-child {
+    display: inline-block;
+    height: 600px;
+}
+  
+  .bgimg-1-1, .bgimg-1-2, .bgimg-1-3, .bgimg-1-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.bgimg-1-1 { background-image: url("/images/gallery/img-1-1.jpg"); }
+.bgimg-1-2 { background-image: url("/images/gallery/img-1-2.jpg"); }
+.bgimg-1-3 { background-image: url("/images/gallery/img-1-3.jpg"); }
+.bgimg-1-4 { background-image: url("/images/gallery/img-1-4.jpg"); }
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  .s1-verticle {
+    color:black;
+    background-color:white;
+    /*background: rgba(255, 255, 255, 0.1);*/
+    text-align:center;
+    padding:0px 50px;
+    white-space: normal;
+    width: 200px;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+  
+  .s1-text {
+      position:relative;
+      top:120px;
+      text-align:center;
+  }
+
+/*this is for section 2 of the gallery page*/
+
+/*
+* {
+    box-sizing: border-box;
+  }
+*/  
+.s2 {
+    width: 2850px;
+  }
+
+  .s2-scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  
+  .bg-image {
+    height: 600px; 
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border: 10px solid #f1f1f1;
+  }
+  
+  /* Images used */
+  .bgimg-2-1 { background-image: url("/images/gallery/img-2-1.gif"); }
+  .bgimg-2-2 { background-image: url("/images/gallery/img-2-2.gif"); }
+  .bgimg-2-3 { background-image: url("/images/gallery/img-2-3.gif"); }
+  .bgimg-2-4 { background-image: url("/images/gallery/img-2-4.gif"); }
+  
+  .s2-text {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    /*position: fixed;*/
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .s2-hide {
+    display: none;
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    /*position: fixed;*/
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: 0;
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .s2-envelope {
+    position: relative;
+    top: 225%;
+    left: 1370px;
+    width: 50%;
+    transform: translate(-50%, -200%);
+  }
+  
+  .s2-envelope:hover .s2-hide {
+    display: block;
+    width: 1000px;
+  }
+  
+  .s2-envelope:hover .s2-text {
+    display: none;
+  }
+  
+  /*
+  a {
+    color: white !important;
+  }
+  */
+
+/*this is for section 3 of the gallery page*/
+
+.s3-container {
+    width: 1600px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex; 
+    flex-direction: row;
+    height: 400px;
+  }
+  
+  .s3-bg {
+    background-image: url("/images/gallery/img-3-0.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .s3-image {
+    opacity: 0;
+    transition: opacity 0.8s;
+  }
+  
+  
+  .s3-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    /*left: 0;
+    right: 0;*/
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .s3-bg:hover .s3-image {
+    opacity: 1;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    color: white;
+  }
+  
+  .s3-bg:hover .s3-text {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  

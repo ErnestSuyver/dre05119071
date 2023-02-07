@@ -1,0 +1,115 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+'''
+meer spelen met die hoeken
+er zit een afwijking in die ik niet begrijp
+ook spelen met randomisatie van vormen en afstanden en zo
+het is zeer onheilspellend'''
+
+newPage()
+#page 3
+
+w = h = 100
+r = 360 #rotation degree for THREE thingies
+#wonderbaarlijk welke patronen je krijgt door met stappen van 10 van 0 naar 360 te gaan
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       save()
+       translate(0, h)
+       rotate(r)
+       scale(sqrt(2)/2)
+       tree(n-1)
+       restore()
+
+       save()
+       translate(w, h)
+       rotate(3*r)
+       scale(sqrt(2)/2)
+       translate(-w, 0)
+       tree(n-1)
+       restore()
+       
+       save()
+       translate(w, h)
+       rotate(6*r)
+       scale(sqrt(2)/2)
+       translate(-w, 0)
+       tree(n-1)
+       restore()
+
+levels = 9
+translate(width()/2 - w/2, height()/2 - h/2 - 50)
+tree(levels)
+
+# saveImage('fractals-2variant-3-' + timestr + '.jpg')
+
+newPage()
+#page 2
+
+w = h = 100
+rr = 450 #rotation degree RIGHT
+#wonderbaarlijk welke patronen je krijgt door met stappen van 10 van 90 naar 450 te gaan
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       save()
+       translate(0, h)
+       rotate(90)
+       scale(sqrt(2)/2)
+       tree(n-1)
+       restore()
+
+       save()
+       translate(w, h)
+       rotate(-rr)
+       scale(sqrt(2)/2)
+       translate(-w, 0)
+       tree(n-1)
+       restore()
+
+levels = 9
+translate(width()/2 - w/2, height()/2 - h/2 - 50)
+tree(levels)
+
+#saveImage('fractals-2variant-2-' + timestr + '.jpg')
+
+
+newPage()
+#page 1
+
+w = h = 100
+r = 90 #rotation degree
+#wonderbaarlijk welke patronen je krijgt door met stappen van 10 van 0 naar 360 te gaan
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       save()
+       translate(0, h)
+       rotate(r)
+       scale(sqrt(2)/2)
+       tree(n-1)
+       restore()
+
+       save()
+       translate(w, h)
+       rotate(-r)
+       scale(sqrt(2)/2)
+       translate(-w, 0)
+       tree(n-1)
+       restore()
+
+levels = 9
+translate(width()/2 - w/2, height()/2 - h/2 - 50)
+tree(levels)
+
+#saveImage('fractals-2variant-1-' + timestr + '.jpg')
+
+

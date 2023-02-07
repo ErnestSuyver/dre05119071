@@ -1,0 +1,46 @@
+#toverbal
+newPage(500,500)
+
+#nr_frames = 3
+
+fill(0, 0.5, 1, 0.8)
+rect(0, 0, width(), height())
+
+ball_dia = width() / 8
+
+fill(0.5, 1, 1, 0.8)
+oval(width() / 2 - 0.5 * ball_dia, width() / 2 - 0.5 * ball_dia, ball_dia, ball_dia)
+
+fill(0.7, 1, 1, 0.8)
+oval(width() / 2 - 0.5 * ball_dia, width() / 2 - 0.5 * ball_dia, 2 * ball_dia, 2 * ball_dia)
+
+fill(0.9, 1, 1, 0.8)
+oval(width() / 2 - 0.5 * ball_dia, width() / 2 - 0.5 * ball_dia, 3 * ball_dia, 3 * ball_dia)
+
+# dit levert iets grappigs op
+# fill(0.9, 1, 1, 0.8)
+# oval(width() / 2 - 0.5 * ball_dia, width() / 2 - 0.5 * ball_dia, 3 + ball_dia, 3 * ball_dia)
+
+
+# for frame in range(nr_frames):
+#     newPage(500, 500)
+#     frameDuration(1/10)
+
+
+
+# r = 0.5 + 0.25 * frame
+# g = 0.9 - 0.15 * frame
+# b = 0
+# a = 0.9
+
+
+
+#we zouden nu een groeiende toverbal kunnen maken:
+#voor elk frame erbij een grotere cirkel in een andere kleur
+#kleur en omvang kunnen we programmatisch laten groeien
+
+
+
+#ga hiermeedoor, maak een slurf
+
+saveImage("toverbal-6-1.jpeg")

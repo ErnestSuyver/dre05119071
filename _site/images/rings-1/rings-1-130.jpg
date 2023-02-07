@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="M0,0 l1000,0 l0,1000 l-1000,0 Z M0,0" fill="rgb(68,68,38)" fill-opacity="0.8" transform="matrix(1,0,0,-1,0,1000)"/>
+ <defs>
+  <filter height="1000%" id="shadow8053" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8053_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M255.12,250.22 c1.17,0.29,1.17,0.77,0,1.06 c-1.17,0.29,-3.07,0.29,-4.24,0 c-1.17,-0.29,-1.17,-0.77,0,-1.06 c1.17,-0.29,3.07,-0.29,4.24,0 Z M255.12,250.22" fill="rgb(216,114,38)" filter="url(#shadow8053)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8054" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8054_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M256.97,251.22 c1.37,0.29,1.37,0.77,0,1.06 c-1.37,0.29,-3.58,0.29,-4.95,0 c-1.37,-0.29,-1.37,-0.77,0,-1.06 c1.37,-0.29,3.58,-0.29,4.95,0 Z M256.97,251.22" fill="rgb(216,114,38)" filter="url(#shadow8054)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9999451693655121,-0.010471784116245792,-0.010471784116245792,-0.9999451693655121,60.0,985.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8055" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8055_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M258.83,252.22 c1.56,0.29,1.56,0.77,0,1.06 c-1.56,0.29,-4.09,0.29,-5.66,0 c-1.56,-0.29,-1.56,-0.77,0,-1.06 c1.56,-0.29,4.09,-0.29,5.66,0 Z M258.83,252.22" fill="rgb(216,114,38)" filter="url(#shadow8055)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9997806834748455,-0.020942419883356957,-0.020942419883356957,-0.9997806834748455,120.0,970.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8056" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8056_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M260.68,253.22 c1.76,0.29,1.76,0.77,0,1.06 c-1.76,0.29,-4.61,0.29,-6.36,0 c-1.76,-0.29,-1.76,-0.77,0,-1.06 c1.76,-0.29,4.61,-0.29,6.36,0 Z M260.68,253.22" fill="rgb(216,114,38)" filter="url(#shadow8056)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9995065603657316,-0.03141075907812829,-0.03141075907812829,-0.9995065603657316,180.0,955.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8057" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8057_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M262.54,254.22 c1.95,0.29,1.95,0.77,0,1.06 c-1.95,0.29,-5.12,0.29,-7.07,0 c-1.95,-0.29,-1.95,-0.77,0,-1.06 c1.95,-0.29,5.12,-0.29,7.07,0 Z M262.54,254.22" fill="rgb(216,114,38)" filter="url(#shadow8057)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9991228300988584,-0.04187565372919962,-0.04187565372919962,-0.9991228300988584,240.0,940.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8058" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8058_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M264.39,255.22 c2.15,0.29,2.15,0.77,0,1.06 c-2.15,0.29,-5.63,0.29,-7.78,0 c-2.15,-0.29,-2.15,-0.77,0,-1.06 c2.15,-0.29,5.63,-0.29,7.78,0 Z M264.39,255.22" fill="rgb(216,114,38)" filter="url(#shadow8058)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9986295347545738,-0.052335956242943835,-0.052335956242943835,-0.9986295347545738,300.0,925.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8059" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8059_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M266.24,256.22 c2.34,0.29,2.34,0.77,0,1.06 c-2.34,0.29,-6.14,0.29,-8.49,0 c-2.34,-0.29,-2.34,-0.77,0,-1.06 c2.34,-0.29,6.14,-0.29,8.49,0 Z M266.24,256.22" fill="rgb(216,114,38)" filter="url(#shadow8059)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9980267284282716,-0.06279051952931337,-0.06279051952931337,-0.9980267284282716,360.0,910.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8060" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8060_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M268.1,257.22 c2.54,0.29,2.54,0.77,0,1.06 c-2.54,0.29,-6.65,0.29,-9.19,0 c-2.54,-0.29,-2.54,-0.77,0,-1.06 c2.54,-0.29,6.65,-0.29,9.19,0 Z M268.1,257.22" fill="rgb(216,114,38)" filter="url(#shadow8060)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9973144772244581,-0.07323819712763169,-0.07323819712763169,-0.9973144772244581,420.0,895.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8061" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8061_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M269.95,258.22 c2.73,0.29,2.73,0.77,0,1.06 c-2.73,0.29,-7.17,0.29,-9.9,0 c-2.73,-0.29,-2.73,-0.77,0,-1.06 c2.73,-0.29,7.17,-0.29,9.9,0 Z M269.95,258.22" fill="rgb(216,114,38)" filter="url(#shadow8061)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.9964928592495044,-0.08367784333231548,-0.08367784333231548,-0.9964928592495044,480.0,880.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8062" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8062_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(232,130,53)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M271.8,259.22 c2.93,0.29,2.93,0.77,0,1.06 c-2.93,0.29,-7.68,0.29,-10.61,0 c-2.93,-0.29,-2.93,-0.77,0,-1.06 c2.93,-0.29,7.68,-0.29,10.61,0 Z M271.8,259.22" fill="rgb(216,114,38)" filter="url(#shadow8062)" stroke="rgb(232,130,53)" stroke-width="0.6" transform="matrix(0.99556196460308,-0.09410831331851433,-0.09410831331851433,-0.99556196460308,540.0,865.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8063" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(173,91,30)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8063_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(173,91,30)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M335.36,257.32 c19.53,9.76,19.53,25.59,0,35.36 c-19.53,9.76,-51.18,9.76,-70.71,0.0 c-19.53,-9.76,-19.53,-25.59,0,-35.36 c19.53,-9.76,51.18,-9.76,70.71,-0.0 Z M335.36,257.32" fill="rgb(216,114,38)" filter="url(#shadow8063)" stroke="rgb(195,103,34)" stroke-width="10" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+ <defs>
+  <filter height="1000%" id="shadow8064" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(130,68,22)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <filter height="1000%" id="shadow8064_flipped" width="1000%" x="-500%" y="-500%">
+   <feGaussianBlur in="SourceAlpha" stdDeviation="10.000000"/>
+   <feOffset dx="0" dy="0" result="offsetblur"/>
+   <feFlood flood-color="rgb(130,68,22)"/>
+   <feComposite in2="offsetblur" operator="in"/>
+   <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+ </defs>
+ <path d="M296.31,273.77 c0.2,0.1,0.2,0.26,0,0.35 c-0.2,0.1,-0.51,0.1,-0.71,0 c-0.2,-0.1,-0.2,-0.26,0,-0.35 c0.2,-0.1,0.51,-0.1,0.71,0 Z M296.31,273.77" fill="rgb(173,91,30)" filter="url(#shadow8064)" stroke="rgb(151,80,26)" stroke-width="10" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+ <path d="M294.33,272.6 c0.2,0.1,0.2,0.26,0,0.35 c-0.2,0.1,-0.51,0.1,-0.71,0 c-0.2,-0.1,-0.2,-0.26,0,-0.35 c0.2,-0.1,0.51,-0.1,0.71,0 Z M294.33,272.6" fill="rgb(173,91,30)" filter="url(#shadow8064)" stroke="rgb(151,80,26)" stroke-width="10" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+ <path d="M298.47,275.07 c0.2,0.1,0.2,0.26,0,0.35 c-0.2,0.1,-0.51,0.1,-0.71,0 c-0.2,-0.1,-0.2,-0.26,0,-0.35 c0.2,-0.1,0.51,-0.1,0.71,0 Z M298.47,275.07" fill="rgb(173,91,30)" filter="url(#shadow8064)" stroke="rgb(151,80,26)" stroke-width="10" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+ <path d="M303.49,276.39 c0.2,0.1,0.2,0.26,0,0.35 c-0.2,0.1,-0.51,0.1,-0.71,0 c-0.2,-0.1,-0.2,-0.26,0,-0.35 c0.2,-0.1,0.51,-0.1,0.71,0 Z M303.49,276.39" fill="rgb(173,91,30)" filter="url(#shadow8064)" stroke="rgb(151,80,26)" stroke-width="10" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+ <path d="M300.85,279.48 c0.2,0.1,0.2,0.26,0,0.35 c-0.2,0.1,-0.51,0.1,-0.71,0 c-0.2,-0.1,-0.2,-0.26,0,-0.35 c0.2,-0.1,0.51,-0.1,0.71,0 Z M300.85,279.48" fill="rgb(173,91,30)" filter="url(#shadow8064)" stroke="rgb(151,80,26)" stroke-width="10" transform="matrix(1.0,0.0,0.0,-1.0,0.0,1000.0)"/>
+</svg>

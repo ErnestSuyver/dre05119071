@@ -1,0 +1,23 @@
+<!-- This is the "gallery" on the homepage, which is rather lacklustre.-->
+<!-- We need 1) the collection titles displayed over the images 2) automatic resizing of the grid 3) large images or some sort of lightbox -->
+<div class="gallery">
+  <ul class="image-grid">
+    {% for image in gallery %}
+    <li class="image-container">
+        <a href="/gallery/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
+            {% respimg 
+                src=image.src,
+                alt=image.alt,
+                inputDir="./src",
+                imgDir=image.imgDir,
+                widths=[320, 480, 640, 1024],
+                sizes="(min-width: 600px) 50vw, (min-width: 800px) 100vw, 33.3vw",
+                className="grid-image",
+                width=640,
+                height=400
+            %}
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

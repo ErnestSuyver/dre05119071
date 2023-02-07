@@ -1,0 +1,39 @@
+{   
+    "author": {
+        "firstName": "",
+        "lastName": "DRE",
+        "email": "dre05119071@gmail.com",
+        "twitterHandle": "@dre05119071",
+        "about": "code-generated art and design"
+    },
+    "socials": {
+        "twitter": "https://twitter.com/dre05119071",
+        "instagram": "https://instagram.com/dre05119071",
+        "mastodon": "https://mastodon.com/dre05119071",
+        "pixelfed": "https://pixelfed.com/dre05119071"
+    },
+    "platforms": {
+        "opensea": "https://opensea.com/dre05119071",
+        "artblocks": "https://artblocks.com/dre05119071",
+        "foundation": "https://foundation.com/dre05119071",
+        "objkt": "https://objkt.com/dre05119071"
+    },
+    "pageMetadata": {
+        "home": {
+            "content": "Enter the world of code-generated art and design by DRE"
+        },
+        "gallery": {
+            "content": "A gallery of featured images by DRE"
+        },
+        "collections": {
+            "content": "Collections of images by DRE"
+        },
+        "featured": {
+            "content": "Featured images by DRE"
+        },
+        "about": {
+            "content": "About DRE, code-generated art and design"
+        }
+
+    }
+}

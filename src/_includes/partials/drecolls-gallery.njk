@@ -1,0 +1,30 @@
+<!-- This is the "gallery" on the collections page-->
+<div class="gallery">
+    <ul class="gallery-list">
+        <!-- warning! any filename containing the string "collections" is forbidden by Eleventy -->
+        {% for collection in drecolls %}
+        <li class="gallery-item">
+            <div class="image-block">
+                <a href="{{ collection.title | slug }}" aria-label="Gallery collection {{ collection.title }}">
+                {% respimg
+                    inputDir="./src",
+                    imgDir=collection.imgDir,
+                    widths=[320, 480, 640, 1024],
+                    sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 950px) 50vw, 33.3vw",
+                    src=collection.src,
+                    alt=collection.alt,
+                    width=768,
+                    height=600,
+                    className="gallery-photo"
+                %}
+                </a>
+                <div class="block-details">
+                    <p>{{ collection.date }}</p>
+                    <h2><a href="/collections/{{ collection.title | slug }}">{{ collection.title }}</a></h2>
+                    <p>{{ collection.alt }}</p>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

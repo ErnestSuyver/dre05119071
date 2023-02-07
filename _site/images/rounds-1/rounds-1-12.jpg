@@ -1,0 +1,41 @@
+newPage(500, 500)
+#frameDuration(1/10)
+fill(0.1, 0.15, 0.67, 0.27)
+rect(0, 0, width(), width())
+
+o_dia = 100
+o_size = width() / o_dia
+d = o_dia * o_size
+a = 0.9 * 0.1 * d
+
+o_size = 1
+d = o_dia * o_size
+a = 0.9 * 0.1 * o_size #de wisselende transparency zorgt voor het kleurverschil
+fill(0.1, 0.35, 0.9, a)
+oval(width() / 2 - d / 2, width() / 2 - d / 2, d, d) #lekker opgeruimd door het d-tje
+
+o_size = 2
+d = o_dia * o_size
+a = 0.9 * 0.1 * o_size #de wisselende transparency zorgt voor het kleurverschil
+fill(0.1, 0.35, 0.9, a)
+oval(width() / 2 - d / 2, width() / 2 - d / 2, d, d) #lekker opgeruimd door het d-tje
+
+o_size = 3
+d = o_dia * o_size
+a = 0.9 * 0.1 * o_size #de wisselende transparency zorgt voor het kleurverschil
+fill(0.1, 0.35, 0.9, a)
+oval(width() / 2 - d / 2, width() / 2 - d / 2, d, d) #lekker opgeruimd door het d-tje
+
+o_size = 4
+d = o_dia * o_size
+a = 0.9 * 0.1 * o_size #de wisselende transparency zorgt voor het kleurverschil
+fill(0.1, 0.35, 0.9, a)
+oval(width() / 2 - d / 2, width() / 2 - d / 2, d, d) #lekker opgeruimd door het d-tje
+
+o_size = 5
+d = o_dia * o_size
+a = 0.9 * 0.1 * o_size #de wisselende transparency zorgt voor het kleurverschil
+fill(0.1, 0.35, 0.9, a)
+oval(width() / 2 - d / 2, width() / 2 - d / 2, d, d)
+
+saveImage("balletje-3.jpeg")

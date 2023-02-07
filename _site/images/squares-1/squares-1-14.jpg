@@ -1,0 +1,128 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+nrFrames = 12
+
+h = 200
+w = h
+# x = width()/2 - h/2
+# y = height()/2 - w/2
+x = 0
+y = 0
+# for x in nrSquesres:
+#     x == 0 + width() - nrSquares * w / nrSquares
+a, b, c = 0.7,0.7,0.7
+d, e, f = 0,0,0
+whatevs = 12
+
+'''
+In this scenario, the squares jump corner after a given number of frames.
+
+It is rather abrupt.
+
+It would be nice if we could set the pace. Maybe start with as many steps as there are squares?
+
+Secondly, it would be nice if we could apply interpolation to the number of squares.
+
+Currently, a simple mathematical rule is applied. But ideally, you'd want to set top size, or bottom size, or in-between size, and it calculates the correct sizes for you. 
+
+Thirdly, it would be nice if the squares didn't jump straight to the edge of the corner. We need an offset.
+
+'''
+
+for frame in range(nrFrames):
+    newPage()
+    frameDuration(1/nrFrames)
+    save()
+    fill(0.3)
+    rect(10,10,width()-20, height()-20)
+    restore()
+    for i in range(whatevs):
+        save()
+        if frame < nrFrames * 0.25:
+            shadow((-1, -1), 80 * 1 * random(), (d, e, f))
+            fill(a, b, c)
+            stroke(a, b, c)
+            strokeWidth(w/10 * 1 * random())
+            rect(40, 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280, 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520, 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760, 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40, 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280, 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520, 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760, 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40, 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280, 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520, 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760, 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40, 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280, 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520, 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760, 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+        elif frame < nrFrames * 0.5:    
+            shadow((-1, -1), 80 * 1 * random(), (d, e, f))
+            fill(a, b, c)
+            stroke(a, b, c)
+            strokeWidth(w/10 * 1 * random())
+            rect(40, 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(280, 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(520, 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(760, 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(40, 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(280, 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top eft
+            rect(520, 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(760, 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(40, 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(280, 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(520, 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(760, 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(40, 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(280, 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(520, 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+            rect(760, 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top left
+        elif frame < nrFrames * 0.75:
+            shadow((-1, -1), 80 * 1 * random(), (d, e, f))
+            fill(a, b, c)
+            stroke(a, b, c)
+            strokeWidth(w/10 * 1 * random())
+            rect(40 + i * sqrt(h), 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 40 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40 + i * sqrt(h), 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 280 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40 + i * sqrt(h), 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 520 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40 + i * sqrt(h), 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 760 + i * sqrt(h), w - i * sqrt(h), h - i * sqrt(h)) #top right
+        else:
+            shadow((-1, -1), 80 * 1 * random(), (d, e, f))
+            fill(a, b, c)
+            stroke(a, b, c)
+            strokeWidth(w/10 * 1 * random())
+            rect(40 + i * sqrt(h), 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 40, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40 + i * sqrt(h), 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 280, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40 + i * sqrt(h), 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 520, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(40 + i * sqrt(h), 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(280 + i * sqrt(h), 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(520 + i * sqrt(h), 760, w - i * sqrt(h), h - i * sqrt(h)) #bottomleft
+            rect(760 + i * sqrt(h), 760, w - i * sqrt(h), h - i * sqrt(h)) #bottom right
+        restore()
+
+saveImage('squares-2-variant-2-' + timestr + '.gif')

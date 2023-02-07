@@ -1,0 +1,125 @@
+newPage()
+# page 1
+
+w = 1000
+h = 1000
+rows = 8
+cols = rows # make as many columns as rows, to make a grid
+
+fill(1)
+strokeWidth(2)
+stroke(0,0,0)
+  
+for currentCol in range(cols):
+    dotSize = w / (cols + (cols + 1))
+    x = dotSize + currentCol * (dotSize + dotSize)
+    for currentRow in range(rows):
+        y = dotSize + currentRow * (dotSize + dotSize)
+        
+        rect(x, y, dotSize, dotSize)
+
+newPage()
+# page 2
+
+w = 1000
+h = 1000
+rows = 8
+cols = rows
+
+fill(1)
+strokeWidth(4)
+stroke(0,0,0)
+  
+for currentCol in range(cols):
+    dotSize = w / cols
+    x = dotSize * currentCol
+    for currentRow in range(rows):
+        y = dotSize * currentRow
+        
+        rect(x, y, dotSize, dotSize)
+
+#frame
+rect(0, 0, w, 3) # below
+rect(0, 0, 3, h) # left
+rect(w, 0, 3, h) # right
+rect(0, h, w, 3) # upper
+
+# I don't understand 
+# 1. why the thickness should be 3 and not 4, given that the strokeWidth of the dots is 4
+# 2. why the upper and the right don't show
+
+newPage()
+# page 3
+
+w = 1000
+h = 1000
+rows = 4
+cols = rows
+
+fill(1)
+strokeWidth(4)
+stroke(1,1,0)
+  
+for currentCol in range(cols):
+    dotSize = w / cols
+    x = dotSize * currentCol
+    for currentRow in range(rows):
+        y = dotSize * currentRow
+        fill(0,0.5,0.5)
+        rect(x, y, dotSize, dotSize)
+
+# #frame
+# rect(0, 0, w, 3) # below
+# rect(0, 0, 3, h) # left
+# rect(w, 0, 3, h) # right
+# rect(0, h, w, 3) # upper
+
+# # I don't understand 
+# # 1. why the thickness should be 3 and not 4, given that the strokeWidth of the dots is 4
+# # 2. why the upper and the right don't show
+
+newPage()
+# page 4
+
+w = 1000
+h = 1000
+rows = 8
+cols = rows
+
+strokeWidth(4)
+stroke(1,1,0)
+  
+for currentCol in range(cols):
+    dotSize = w / cols
+    x = dotSize * currentCol
+    for currentRow in range(rows):
+        y = dotSize * currentRow
+        fill(0,0.5,0.5)
+        rect(x, y, dotSize, dotSize)
+        rect(x + dotSize / 10, y + dotSize / 10, dotSize, dotSize)
+        rect(x + dotSize / 7.5, y + dotSize / 7.5, dotSize, dotSize)
+        rect(x + dotSize / 5, y + dotSize / 5, dotSize, dotSize)
+        fill(0.75,0,0)
+        oval(x + dotSize / 2, y + dotSize / 2, dotSize /5 , dotSize / 5)
+
+newPage()
+# page 5
+
+w = 100
+h = 100
+
+cols = 4
+rows = cols
+
+wcol = 5
+
+for currentCol in range(cols):
+    interwcol = (w / (cols * wcol)) / cols
+    print(interwcol)
+    x = currentCol * wcol + interwcol
+    print(x)
+    for currentRow in range(rows):
+        y = currentCol * wcol + interwcol
+        print(y)
+        fill(0.8)
+        rect(x, y, dotSize, dotSize)

@@ -1,0 +1,52 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+newPage()
+
+save()
+fill(0.4)
+rect(10,10,width()-20, height()-20)
+restore()
+
+h = 450
+w = h
+x = width()/2 - h/2
+y = height()/2 - w/2
+whatevs = 4
+
+for i in range(whatevs):
+    save()
+    shadow((-1, -1), 80, (1,1,1))
+    fill(0.7,0.7,0.1)
+    stroke(0.7,0.7,0.1)
+    strokeWidth(w/10)
+    rect(x, y, w - i * h/4, h - i * h/4)
+    restore()
+
+saveImage('squares-1-2' + timestr + '.jpg')
+
+
+newPage()
+
+save()
+fill(0.4)
+rect(10,10,width()-20, height()-20)
+restore()
+
+h = 450
+w = h
+x = width()/2 - h/2
+y = height()/2 - w/2
+whatevs = 20
+
+for i in range(1, whatevs, 1):
+    save()
+    shadow((-1, -1), 80, (1,1,1))
+    fill(0.7,0.7,0.1)
+    stroke(0.7,0.7,0.1)
+    strokeWidth(w/10)
+    rect(x, y, i * sqrt(h), i * sqrt(w))
+    restore()
+
+saveImage('squares-1-1' + timestr + '.jpg')
+

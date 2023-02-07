@@ -1,0 +1,193 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+# newPage()
+
+# #page 1
+
+# fill(0.27,0.29,0.45,0.90)
+# rect(0,0,width(),height())
+
+# for i in range(500):
+#     save()
+#     shadow((-5, -5), 10, (0.7, 0.7, 0.7, 0.87))
+#     fill(0.4,0.4,0.51,0.9)
+#     oval(width() * random(), height() * random(),3 + i / 10,1.5 * random())
+#     restore()
+
+# x = 250
+# y = x
+# w = 50
+# h = w / 1.9
+# boogje = 70
+# wow = 2
+
+# def hairs(hairy):
+#     for i in range(hairy):  
+#         shadow((-w/100 * random() * wow, -w/100 * random() * wow), w/1.2 * random() * wow, (0.9 * random() * wow, 0.9 * random() * wow, 0.9 * random() * wow, 0.87 * random() * wow))
+#         stroke(0.50 * random() * wow,0.3 * random() * wow,0.3 * random() * wow,0.9 * random() * wow)
+#         strokeWidth(w * 10 * random() * wow)
+#         fill(0.49 * random() * wow,0.39 * random() * wow,0.39 * random() * wow,0.9 * random() * wow)
+#         oval(x,y,w * random() * wow,h * random() * wow)
+#         rotate(boogje)
+    
+# for i in range(5):
+#     #newPage()
+#     x = x + random() * 100 * wow
+#     hairs(5)
+
+# saveImage('hairy-2-1-' + timestr + '.jpg')
+
+
+# newPage()
+
+# #page 2
+
+# fill(0.90,0.78,0.93,0.90)
+# rect(0,0,width(),height())
+
+# for i in range(500):
+#     save()
+#     shadow((-5, -5), 10, (0.8, 0.8, 0.8, 0.99))
+#     fill(0.8,0.8,0.81,0.9)
+#     oval(width() * random(), height() * random(),3 + i / 10,1.5 * random())
+#     restore()
+
+# x = -500
+# y = x
+# w = 50
+# h = w / 1.9
+# boogje = 0.5
+# wow = 0.1
+
+# def hairs(hairy):
+#     for i in range(hairy):  
+#         shadow((-w/100 * random() * wow, -w/100 * random() * wow), w/1.2 * random() * wow, (0.9 * random() * wow, 0.9 * random() * wow, 0.9 * random() * wow, 0.87 * random() * wow))
+#         stroke(0.50 * random() * wow,0.3 * random() * wow,0.3 * random() * wow,0.9 * random() * wow)
+#         strokeWidth(w * 10 * random() * wow)
+#         fill(0.49 * random() * wow,0.39 * random() * wow,0.39 * random() * wow,0.9 * random() * wow)
+#         oval(x,y,w * random() * wow,h * random() * wow)
+#         rotate(boogje)
+    
+# for i in range(550):
+#     #newPage()
+#     x = x + random() * 100 * wow
+#     hairs(100)
+
+# saveImage('hairy-2-2-' + timestr + '.jpg')
+
+# newPage()
+
+# #page 3
+
+# fill(0.85,0.90,0.93,0.95)
+# rect(0,0,width(),height())
+
+# for i in range(500):
+#     save()
+#     shadow((-7, -7), 10, (0.8, 0.8, 0.8, 0.99))
+#     fill(0.85,0.85,0.86,0.9)
+#     oval(width() * random(), height() * random(),3 + i / 10,1.5 * random())
+#     restore()
+
+# x = 500
+# y = x
+# w = 500
+# h = w / 1.8
+# boogje = 1
+# wow_shadow = 0.2
+# wow_stroke = 0.2
+# wow_fill = 0.01
+
+# def hairs(hairy):
+#     for i in range(hairy):  
+#         shadow((-w/100 * random() * wow_shadow, -w/100 * random() * wow_shadow), w/1.2 * random() * wow_shadow, (0.9 * random() * wow_shadow, 0.9 * random() * wow_shadow, 0.9 * random() * wow_shadow, 0.87 * random() * wow_shadow))
+#         stroke(0.50 * random() * wow_stroke,0.3 * random() * wow_stroke,0.3 * random() * wow_stroke,0.9 * random() * wow_stroke)
+#         strokeWidth(w * 10 * random() * wow_stroke)
+#         fill(0.49 * random() * wow_fill,0.39 * random() * wow_fill,0.39 * random() * wow_fill,0.9 * random() * wow_fill)
+#         oval(x,y,w * random() * wow_fill,h * random() * wow_fill)
+#         rotate(boogje)
+    
+# for i in range(100):
+#     #newPage()
+#     x = x + random() * 100 * wow_fill
+#     hairs(100)
+
+# saveImage('hairy-2-3-' + timestr + '.jpg')
+
+# newPage()
+
+# #page 4
+
+# fill(0.85,0.90,0.93,0.95)
+# rect(0,0,width(),height())
+
+# for i in range(500):
+#     save()
+#     shadow((-7, -7), 10, (0.8, 0.8, 0.8, 0.99))
+#     fill(0.85,0.85,0.86,0.9)
+#     oval(width() * random(), height() * random(),3 + i / 10,1.5 * random())
+#     restore()
+
+# x = 100
+# y = -50
+# w = 250
+# h = w / 1.8
+# boogje = 0.01
+# wow_shadow = 0.2
+# wow_stroke = 0.2
+# wow_fill = 0.2
+
+# def hairs(hairy):
+#     for i in range(hairy):  
+#         shadow((-w/100 * random() * wow_shadow, -w/100 * random() * wow_shadow), w/1.2 * random() * wow_shadow, (0.9 * random() * wow_shadow, 0.9 * random() * wow_shadow, 0.9 * random() * wow_shadow, 0.87 * random() * wow_shadow))
+#         stroke(0.50 * random() * wow_stroke,0.3 * random() * wow_stroke,0.3 * random() * wow_stroke,0.9 * random() * wow_stroke)
+#         strokeWidth(w * 10 * random() * wow_stroke)
+#         fill(0.49 * random() * wow_fill,0.39 * random() * wow_fill,0.39 * random() * wow_fill,0.9 * random() * wow_fill)
+#         oval(x,y,w * random() * wow_fill,h * random() * wow_fill)
+#         rotate(boogje)
+    
+# for i in range(200):
+#     #newPage()
+#     x = x + random() * 200 * wow_fill
+#     hairs(100)
+
+# saveImage('hairy-2-4-' + timestr + '.jpg')
+
+#page 5
+newPage("A3")
+
+fill(0.85,0.90,0.93,0.95)
+rect(0,0,width(),height())
+
+for i in range(500):
+    save()
+    shadow((-7, -7), 10, (0.8, 0.8, 0.8, 0.99))
+    fill(0.85,0.85,0.86,0.9)
+    oval(width() * random(), height() * random(),3 + i / 10,1.5 * random())
+    restore()
+
+x = 450
+y = 150
+w = 250
+h = w / 1.8
+boogje = 0.2
+wow_stroke = 0.2
+wow_fill = 0.2
+
+def hairs(hairy):
+    for i in range(hairy):  
+        shadow((-w/100, -w/100), w/1.2, (0.9, 0.9, 0.9, 0.99))
+        stroke(0.50 * random() * wow_stroke,0.3 * random() * wow_stroke,0.3 * random() * wow_stroke,0.9)
+        strokeWidth(w * 10 * random() * wow_stroke)
+        fill(0.49,0.39,0.39,0.9)
+        oval(x,y,w * random() * wow_fill,h * random() * wow_fill)
+        rotate(boogje)
+    
+for i in range(15):
+    #newPage()
+    x = x + random() * 200 * wow_fill
+    hairs(15)
+
+saveImage('hairy-2-5-' + timestr + '.svg')
+# saveImage('hairy-2-5-' + timestr + '.pdf')

@@ -1,0 +1,100 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+newPage("A3Landscape")
+
+fill(0.39,0.19,0.19,0.8)
+# fill(.8)
+rect(0,0,width(),height())
+
+for i in range(500):
+    save()
+    shadow((-5, -5), 10, (0.9, 0.9, 0.9, 0.85))
+    fill(0.6,0.6,0.19,0.9)
+    oval(width() * random(), height() * random(), 3,2)
+    restore()
+
+w = 24 #width
+
+# shadow((-15, -15), 10, (0.3, 0.25, 0.25, 0.90))
+# # stroke(0.5,0.4,0.4)
+# # strokeWidth(4 * w)
+# fill(.89)
+# oval(500,500,w,0.5 * w)
+# rotate(13)
+
+numDots = 80
+dotSize = width() / numDots
+
+for i in range(numDots):
+    
+    amplitude = 80
+    period = 1 #the value "1" gives us exactly 1 wave
+    for i in range(numDots + 1):
+        x = -1000 + i * dotSize * 2 * period #dit was 100
+        angle = 360 * i / numDots
+        angle += i / numDots * 360
+        y = 0 + amplitude * sin(radians(angle))
+        #y = height()/2 + amplitude * sin(radians(angle)) #0 was het beste
+        shadow((-5, -5), 5, (0.5, 0.5, 0.5, 0.85))
+        # fill(.88)
+        # linearGradient(
+        #     (x, y),
+        #     (x+dotSize, y+dotSize),
+        #     [(0.1, 0.7, 0.8), (0.1, 0.8, 0.9), (0.1, 0.9, 0.9)],
+        #     [0.1, 0.4, 0.2]
+        #     )
+        fill(0.4 * 0.3 * random(), 0.19, 0.19)
+        # oval(x,y,w,0.5 * w)
+        oval(x,y,w,0.4 * w * 0.3 * random())
+        # oval(x * 0.3 * random(),y * 0.3 * random(),w,0.4 * w * 0.3 * random())
+        rotate(0)
+
+saveImage('waves-1variant-2' + timestr + '.jpg')
+saveImage('waves-1variant-2' + timestr + '.pdf')
+saveImage('waves-1variant-2' + timestr + '.svg')
+
+
+# newPage()
+
+# #fill(0.1,0.5,0.5)
+# fill(.8)
+# rect(0,0,width(),height())
+
+# for i in range(500):
+#     save()
+#     shadow((-5, -5), 10, (0.9, 0.9, 0.9, 0.85))
+#     fill(0.6,0.6,0.19,0.9)
+#     oval(width() * random(), height() * random(), 3,2)
+#     restore()
+
+# w = 110 #width
+
+
+# # shadow((-15, -15), 10, (0.3, 0.25, 0.25, 0.90))
+# # # stroke(0.5,0.4,0.4)
+# # # strokeWidth(4 * w)
+# # fill(.89)
+# # oval(500,500,w,0.5 * w)
+# # rotate(13)
+
+
+# numDots = 120
+# dotSize = width() / numDots
+
+# for i in range(numDots):
+    
+#     amplitude = 80
+#     period = 0.55 #the value "1" gives us exactly 1 wave
+#     for i in range(numDots + 1):
+#         x = 150 + i * dotSize * 2 * period
+#         angle = 360 * i / numDots
+#         angle += i / numDots * 360
+#         y = height()/2 + amplitude * sin(radians(angle))
+#         shadow((-15, -15), 10, (0.3, 0.25, 0.25, 0.90))
+#         fill(.89)
+#         oval(x,y,w,0.5 * w)
+#         rotate(13)
+
+ 
+# saveImage('waves-1variant-1' + timestr + '.jpg')

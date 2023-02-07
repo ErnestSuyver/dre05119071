@@ -1,0 +1,208 @@
+newPage()
+
+'''
+rastermaker
+'''
+
+#would be better if we could create these patterns automatically, but I don't know how...
+
+#an attempt:
+#a line. y is always the same. x is between beginning and end = 0 and m.
+#so, for y =3, give me all x-es:
+#for x in range(m):
+#    print(x)
+# hm, this can be improved...
+
+#so, now we can create patterns (including characters and words) by setting values of the moduli. 
+
+#so for example
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+a,b,c = 0,1,1
+
+q = range(m)
+r = (3,3)
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        if i // 1 in q and j // 1 in r:
+            fill(a+1,b,c)
+        else:
+            fill(a,b - i/12,c)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-9.jpg")
+
+
+newPage()
+
+q = (1,2,3)
+r = (0,2,4,6)
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+a,b,c = 0,1,1
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        if i // 1 in q and j // 1 in r:
+            fill(a+1,b,c)
+        #This is a better way
+        # if you work with "in", the tuple (iterable) needs at least TWO values
+        else:
+            fill(a,b - i/12,c)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-8.jpg")
+
+newPage()
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+a,b,c = 0,1,1
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        if i // 1 in (3,4) and j // 1 == 5:
+            fill(a+1,b,c)
+        #This is a better way
+        else:
+            fill(a,b - i/12,c)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-7.jpg")
+
+newPage()
+
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+a,b,c = 0,1,1
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        if i // 1 in (3,4) and j // 1 == 5:
+            fill(a+1,b,c)
+        #so now we can access multiple squares
+        #but there has to be a better way to wirte this up
+        else:
+            fill(a,b - i/12,c)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-6.jpg")
+
+
+newPage()
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+a,b,c = 0,1,1
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        if i // 1 == 3 and j // 1 == 4:
+            fill(a+1,b,c)
+        # so the modulo for i sets the x and the modulo for y sets the y. 
+        #remember that the 0 is always the first in Python
+        else:
+            fill(a,b - i/12,c)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-5.jpg")
+
+newPage()
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+a,b,c = 0,1,1
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        #fill(a,b - i/12,c)
+        if i // 1 == 3: #increase the modulo to increase the number of turquoise vertical stripes
+            #increase the `== 0` to move the turquoise stripe to the right
+            #if you replace i with j you have the same effect but horizontally
+            fill(a,b,c)
+            #print(i // 1)
+        else:
+            fill(a,b - i/12,c)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-4.jpg")
+
+newPage()
+
+'''
+rastermaker
+'''
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        fill(0,1 - i/12,0)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-3.jpg")
+
+newPage()
+
+m = 5 #set number of squares horizontally
+n = 7 #set number of squares vertically
+
+for i in range(m):
+    for j in range(n):
+        stroke(1)
+        fill(0,1 - j/12,0)
+        rect(i * width()/m,j * height()/n,width()/m, height()/n)
+
+#saveImage("raster-1-1-1-2.jpg")
+
+newPage()
+
+m = 4 #set number of squares horizontally
+n = 3 #set number of squares vertically
+
+for i in range(m):
+    fill(0,0,1 - i/12)
+    rect(i * width()/m,0,width()/m, height()/n) #m geeft een raar effect
+    # print(i)
+    # if i == 3:
+    #     break
+    # for j in range(n):
+    #     fill(0,1,0)
+    #     rect(0,height()/n + i * height()/n,width()/m, height()/n)
+
+
+#saveImage("raster-1-1-1-1.jpg")
+
+'''
+Het nadeel t.o.v. het onderstaande is dat je de kleuren niet individueel kunt bepalen.
+
+fill(0,1,0)
+rect(0,height() * 2/3,width()/2, height()/3)
+#top right
+fill(0,1,0)
+rect(width()/2,height() * 2/3,width()/2, height()/3)
+#middle left
+fill(0,1,0)
+rect(0,height()/3,width()/2, height()/3)
+#middle right
+fill(0,0,1)
+rect(width()/2,height()/3,width()/2, height()/3)
+#under left
+fill(0,1,0)
+rect(0,0,width()/2, height()/3)
+#under right
+fill(0,1,0)
+rect(width()/2,0,width()/2, height()/3)
+'''

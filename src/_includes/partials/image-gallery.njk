@@ -1,0 +1,36 @@
+<!-- This is the "gallery" of individual images on a collection page-->
+<div class="gallery">
+    <ul class="gallery-list">
+        <!-- warning! any data  filename containing 🍌🍌🍌 the string "collections" is forbidden by Eleventy -->
+        <!-- warning! any data filename containing 🍌🍌🍌 hyphens is forbidden by Eleventy -->
+        {% for image in images %}
+        {% if image.gallery | slug in page.url %}
+        <li class="gallery-item">
+            <div class="image-block">
+                <a href="/collections/{{ image.gallery | slug }}/{{ image.src }}" aria-label="Image from collection /collections/{{ image.title | slug }}/{{ image.src}}">
+                {% respimg
+                    inputDir="./src",
+                    imgDir=image.imgDir,
+                    widths=[320, 480, 640, 1024],
+                    sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 950px) 50vw, 33.3vw",
+                    src=image.src,
+                    alt=image.alt,
+                    width=768,
+                    height=600,
+                    className="gallery-photo"
+                %}
+                </a>
+                <!--
+                <div class="block-details">
+                    <p>{{ image.date }}</p>
+                    <h2><a href="/collections/{{ image.gallery | slug }}/{{ image.src }}">Go to {{ image.src }}</a></h2>
+                </div> -->
+            </div>
+            <div class="block-info">
+                    <p>{{ image.title }}, {{ image.date }}. Part of {{ image.gallery }}. <a href=" {{ image.linkToAuthor }} ">Buy now</a></p>
+            </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

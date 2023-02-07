@@ -1,0 +1,86 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+newPage()
+#page 2 The BASICS
+
+w = 100 #w is parent width
+h = w
+cw = sqrt(0.5 * (w**2)) #cw is child width
+r = 320 #rotation degree
+
+#the parent surface is x ** x = y
+#the child surface is y / 2
+#the child's w ( = h) is therefore the sqrt of y/2
+#example: parent w 400 ==> child w 282.842712
+
+#therefore:
+#cw = sqrt((pw ** 2) / 2)
+#if we want the child to be in the middle above the parent, we need to have this value in the x in the translation function:
+# (w - sqrt(0.5 * (w**2)))/2
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+
+       save()
+       translate((w - cw)/2, h)
+       rotate(r)
+       scale(sqrt(2)/2)
+       tree(n-1)
+       restore()
+
+       save()
+       translate((w - cw)/2,h)
+       rotate(-r)
+       scale(sqrt(2)/2)
+       tree(n-1)
+       restore()
+       
+       # save()
+       # translate(w, h)
+       # rotate(360) #top right, its bottom is the top of the parent ball. It turns anti clockwise around the top right corner of the imaginary square around the parent ball
+       # scale(sqrt(2)/2)
+       # translate(1 * w, 0) #distance of child ball from parent ball
+       # tree(n-1)
+       # restore()
+       
+       # save()
+       # translate(w, h)
+       # rotate(5*r)
+       # scale(sqrt(2)/2)
+       # translate(w, 0)
+       # tree(n-1)
+       # restore()
+
+levels = 12
+translate(width()/2 - w/2, height()/2 - h/2 - 50)
+tree(levels)
+
+saveImage('fractals-2variant2-1-' + timestr + '.jpg')
+
+
+newPage()
+#page 1 The BASICS
+
+w = h = 100
+
+def tree(n):
+   oval(0, 0, w, h)
+
+   if n > 0:
+       
+       save()
+       translate(w, h)
+       rotate(360) #top right, its bottom is the top of the parent ball. It turns anti clockwise around the top right corner of the imaginary square around the parent ball
+       scale(sqrt(2)/2)
+       translate(1 * w, 0) #distance of child ball from parent ball
+       tree(n-1)
+       restore()
+       
+levels = 1
+translate(width()/2 - w/2, height()/2 - h/2 - 50)
+tree(levels)
+
+saveImage('fractals-2variant2-1-' + timestr + '.jpg')

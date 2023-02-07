@@ -1,0 +1,17 @@
+# figures 1
+   
+# page 1
+w, h = 200, 200 # size of the pages / frames
+newPage(w, h) # create a new page
+fill(0.75)
+rect(5,5,w-10,h-10) # set background
+
+# loop over the amount of frames needed
+for i in range(10):
+    save()
+    fill(0.85, 0.45, 0.15) # set fill color
+    translate(w / 2, h / 2) # translate to the center of the page
+    rotate(i*0) # rotate around the center ditwas10
+    rect(-50, -50, 50, 50) # draw the rect
+    restore()
+

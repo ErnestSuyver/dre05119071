@@ -1,0 +1,37 @@
+from time import strftime
+timestr = strftime('%Y%m%d-%H%M%S')
+
+#newPage()
+
+# page 1
+
+w = 100
+h = w
+
+x = width() / 2 - w / 2
+y = height() / 2 - h / 2
+
+def pindakaas(pinda): 
+    for i in range(pinda):
+        stroke(0.55, 0.41, 0.18, 0.8)
+        strokeWidth(12)
+        fill(0.29,0.3,0.27,0.6)
+        shadow((0, 0), 10, (0.19, 0.08, 0.19, 0.9))
+        oval(x-90,y+300,225 - i/2,75 - i/3)
+        rotate(-0.12)
+
+for frame in range(75):
+    newPage()
+    frameDuration(1/15)
+    fill(0.4,0.4,0.19,0.8)
+    rect(0,0,width(),height())
+    for i in range(100):
+        shadow((0, 0), 25, (0.1, 0, 0, 0.8))
+        fill(0.4,0.2,0.7,0.7)
+        oval(width() * random(), height() * random(),15+i/2,1.5+i/1000)
+    pindakaas(4 * frame)
+    rotate(-0.24)
+
+#saveImage('growth-16-1-' + timestr + '.jpg')
+saveImage('growth-16-1-' + timestr + '.gif')
+

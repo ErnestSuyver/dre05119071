@@ -1,0 +1,16 @@
+nr_frames = 10
+for frame in range(nr_frames):
+    newPage(500, 500)
+    frameDuration(1/10)
+    fill(0.1, 0.15, 0.67, 0.27)
+    rect(0, 0, width(), width())
+    save()
+    o_dia = 20
+    o_size = 1 + 1.4 * frame #hoe zorg ik ervoor dat hij binnen het canvas blijft?
+    d = o_dia * o_size
+    a = 0.9 * 0.1 * o_size #de wisselende transparency zorgt voor het kleurverschil
+    fill(0.1, 0.35, 0.9, a)
+    oval(width() / 2 - d / 2, width() / 2 - d / 2, d, d) #lekker opgeruimd door het d-tje
+    restore()
+
+saveImage("balletje-2.gif")
