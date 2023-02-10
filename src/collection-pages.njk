@@ -1,13 +1,13 @@
 ---
 pagination:
-    data: drecolls
+    data: gallery
     size: 1
-    alias: drecolls
-permalink: "collections/{{ drecolls.title | slug }}/"
+    alias: gallery
+permalink: "collections/{{ gallery.title | slug }}/"
 layout: main.njk
 meta_desc: a collection by DRE
-url: https://dre05119071.xyz/collections/{{ drecolls.title | slug }}/
-img: https://dre05119071.xyz/images/home/hero1.jpg
+url: https://dre05119071.xyz/collections/{{ gallery.title | slug }}/
+img: /images/home/hero1.jpg
 alt: DRE, code-generated art and design
 cardType: summary_large_image
 heading: a collection by DRE
@@ -19,12 +19,12 @@ description_2: Every week, one or more collections are made available. Each coll
 <!-- these pages sit below the /collections/ page -->
 
 <div class="page-banner">
-<h1 class="ft-h1">{{ drecolls.title }}</h1>
-<p>{{ drecolls.title }} is a collection by DRE.</p>
-<p>{{ drecolls.alt }}</p>
+<h1 class="ft-h1">{{ gallery.title }}</h1>
+<p>{{ gallery.title }} is a collection by DRE.</p>
+<p>{{ gallery.alt }}</p>
 <p>{{ description }}</p>
 <p>{{ description_2 }}</p>
-<p>{{ drecolls.credit }} on {{ drecolls.date }}, this collection is available on <a href="{{ site.platforms.opensea }}"><img src="/favicon_data/buy-it-on-opensea.svg" alt="OpenSea" width="24" height="24" style="display: inline"></img></a>.</p>
+<p>{{ gallery.credit }} on {{ gallery.date }}, this collection is available on <a href="{{ site.platforms.opensea }}"><img src="/favicon_data/buy-it-on-opensea.svg" alt="OpenSea" width="24" height="24" style="display: inline"></img></a>.</p>
 </div>
 
 {% include "partials/image-gallery.njk" %}

@@ -2,7 +2,7 @@
 <div class="gallery">
     <ul class="gallery-list">
         <!-- warning! any filename containing the string "collections" is forbidden by Eleventy -->
-        {% for collection in drecolls %}
+        {% for collection in gallery %}
         <li class="gallery-item">
             <div class="image-block">
                 <a href="{{ collection.title | slug }}" aria-label="Gallery collection {{ collection.title }}">

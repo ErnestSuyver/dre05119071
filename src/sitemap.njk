@@ -3,7 +3,7 @@ layout: false
 permalink: sitemap.txt
 ---
 {%- for item in collections.all %}
-  {% if not item.data.ignore %}
-    {{env.base.site}}{{ item.url | replace('.html', '') }}
-  {% endif %}
+	{% if not item.data.ignore %}    
+		{{env.base.site}}{{ item.url | replace('.html', '') }}  
+	{% endif %}
 {%- endfor %}

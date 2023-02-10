@@ -1,38 +1,74 @@
 [
     {
-        "title": "Total loss",
-        "date": "January 20, 2023",
+        "title": "Tubes 1",
+        "date": "2023-02-06 18:07:57",
         "credit": "Created with DrawBot",
-        "linkToAuthor": "https://www.opensea.io/images/DRE/",
-        "src": "hero1.jpg",
-        "alt": "In 2033, a woman has an encounter with the first ever robotic sentient being, created in a lab with full consciousness. Non-Fiction Sci-Fi.",
-        "imgDir": "/images/home/"
+        "linkToAuthor": "https://www.opensea.io/tubes-1",
+        "src": "tubes-1-hero.jpg",
+        "alt": "Tubes 1 affords a glimps in the life of ring clusters in a sea of purple.",
+        "imgDir": "/images/tubes-1/"
     },
     {
-        "title": "Never in doubt",
-        "date": "January 20, 2023",
+        "title": "Spurs 2",
+        "date": "2023-02-08 21:54:11",
         "credit": "Created with DrawBot",
-        "linkToAuthor": "https://www.opensea.io/images/DRE/",
-        "src": "hero2.jpg",
-        "alt": "This series is a reflection from the book 'Never Let Me Go' by K. Ishiguro.",
-        "imgDir": "/images/home/"
+        "linkToAuthor": "https://www.opensea.io/spurs-2",
+        "src": "spurs-2-hero.jpg",
+        "alt": "Spurs 2 has an explosion of color as the rings move from polyporous stripes to a vortex.",
+        "imgDir": "/images/spurs-2/"
     },
     {
-        "title": "Ramifications",
-        "date": "January 18, 2023",
+        "title": "Turns 1",
+        "date": "2023-02-06 18:08:34",
         "credit": "Created with DrawBot",
-        "linkToAuthor": "https://www.opensea.io/DRE/",
-        "src": "hero3.jpg",
-        "alt": "A little blackbird singing a sweet song that hides behind our tangled personality. Ethereal beauty on the outside, dark and mysterious on the inside.",
-        "imgDir": "/images/home/"
+        "linkToAuthor": "https://www.opensea.io/turns-1",
+        "src": "turns-1-hero.jpg",
+        "alt": "Turns 1 sees swarming rods morph into lavender poison.",
+        "imgDir": "/images/turns-1/"
     },
     {
-        "title": "Odorious",
-        "date": "January 16, 2023",
+        "title": "Orbs 1",
+        "date": "2023-02-09 08:58:08",
         "credit": "Created with DrawBot",
-        "linkToAuthor": "https://www.opensea.io/DRE/",
-        "src": "hero4.jpg",
-        "alt": "The chair was designed such that the feeling of the uncanny complements the discomfiture of the user due to the (strategic?) placement of the two women.",
-        "imgDir": "/images/home/"
+        "linkToAuthor": "https://www.opensea.io/orbs-1",
+        "src": "orbs-1-hero.jpg",
+        "alt": "Orbs 1 moves from bloodied bathroom tiles to psychedelic crocodile scales. Pink moons meet twisted bar charts.",
+        "imgDir": "/images/orbs-1/"
+    },
+    {
+        "title": "Tubes 2",
+        "date": "2023-02-08 21:12:20",
+        "credit": "Created with DrawBot",
+        "linkToAuthor": "https://www.opensea.io/tubes-2",
+        "src": "tubes-2-hero.jpg",
+        "alt": "Tubes 2 shows silent encounters and solitary growth.",
+        "imgDir": "/images/tubes-2/"
+    },
+    {
+        "title": "Terrors 1",
+        "date": "2023-02-09 11:15:48",
+        "credit": "Created with DrawBot",
+        "linkToAuthor": "https://www.opensea.io/terrors-1",
+        "src": "terrors-1-hero.jpg",
+        "alt": "Terrors 1 has grim complexity beyond life or comprehension.",
+        "imgDir": "/images/terrors-1/"
+    },
+    {
+        "title": "Rings 1",
+        "date": "2023-02-09 11:12:04",
+        "credit": "Created with DrawBot",
+        "linkToAuthor": "https://www.opensea.io/rings-1",
+        "src": "rings-1-hero.jpg",
+        "alt": "Rings 1 has hemoglobins meet orange rods. Fireworks in the primeval soup.",
+        "imgDir": "/images/rings-1/"
+    },
+    {
+        "title": "Spurs 1",
+        "date": "2023-02-08 21:36:37",
+        "credit": "Created with DrawBot",
+        "linkToAuthor": "https://www.opensea.io/spurs-1",
+        "src": "spurs-1-hero.jpg",
+        "alt": "Spurs 1 sees cocci turn into planetary rings that strangle the life out of the sky.",
+        "imgDir": "/images/spurs-1/"
     }
 ]

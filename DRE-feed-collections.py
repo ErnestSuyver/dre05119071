@@ -67,7 +67,7 @@ for item in file_info.values():
 # print(new_data)
 
 # Dump the new data to a file
-with open(os.path.join(json_dir, "drecolls.json"), "w") as f:
+with open(os.path.join(json_dir, "gallery.json"), "w") as f:
      json.dump(new_data, f, indent=4)
 
 '''

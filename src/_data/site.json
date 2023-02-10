@@ -3,7 +3,7 @@
         "firstName": "",
         "lastName": "DRE",
         "email": "dre05119071@gmail.com",
-        "twitterHandle": "@dre05119071",
+        "twitterHandle": "dre05119071",
         "about": "code-generated art and design"
     },
     "socials": {
@@ -20,13 +20,13 @@
     },
     "pageMetadata": {
         "home": {
-            "content": "Enter the world of code-generated art and design by DRE"
+            "content": "DRE, code-generated art and design"
         },
         "gallery": {
-            "content": "A gallery of featured images by DRE"
+            "content": "Specials, one-offs, and work in progress by DRE"
         },
         "collections": {
-            "content": "Collections of images by DRE"
+            "content": "Collections by DRE"
         },
         "featured": {
             "content": "Featured images by DRE"
