@@ -1,8 +1,8 @@
 <!-- This is the "gallery" of individual images on a collection page-->
 <div class="gallery">
     <ul class="gallery-list">
-        <!-- warning! any data  filename containing 🍌🍌🍌 the string "collections" is forbidden by Eleventy -->
-        <!-- warning! any data filename containing 🍌🍌🍌 hyphens is forbidden by Eleventy -->
+        <!-- warning! any data  file name containing the string "collections" is forbidden by Eleventy -->
+        <!-- warning! any data file name containing hyphens is forbidden by Eleventy -->
         {% for image in images %}
         {% if image.gallery | slug in page.url %}
         <li class="gallery-item">
@@ -26,8 +26,9 @@
                     <h2><a href="/collections/{{ image.gallery | slug }}/{{ image.src }}">Go to {{ image.src }}</a></h2>
                 </div> -->
             </div>
-            <div class="block-info">
-                    <p>{{ image.title }}, {{ image.date }}. Part of {{ image.gallery }}. <a href=" {{ image.linkToAuthor }} ">Buy now</a></p>
+            <!-- <div class="block-info"> -->
+            <div>
+                    <p>{{ image.title }}, {{ image.date }}. Part of {{ image.gallery }}. Now available on <a href=" {{ image.linkToAuthor }} "><img src="/favicon_data/buy-it-on-opensea.svg" alt="OpenSea" width="12" height="12" style="display: inline"></img></a></p>
             </div>
         </li>
         {% endif %}

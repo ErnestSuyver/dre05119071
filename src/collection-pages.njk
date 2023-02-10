@@ -5,13 +5,14 @@ pagination:
     alias: drecolls
 permalink: "collections/{{ drecolls.title | slug }}/"
 layout: main.njk
-meta_desc: one of the DRE collections.
+meta_desc: a collection by DRE
 url: https://dre05119071.xyz/collections/{{ drecolls.title | slug }}/
-img: /images/benches.jpg
-alt: Fire walk with me
+img: https://dre05119071.xyz/images/home/hero1.jpg
+alt: DRE, code-generated art and design
 cardType: summary_large_image
-heading: pindakaas
-description: "Hallucinated territories don’t exist. These images show destructive machines, frozen in pixels as angular blades, slits, gratings; grids of depth and shadow on undulating abstract forms. But the machines have been bound by LIA’s skill. Approachable, their threats are left empty. Neutered violence sleeps over different terroir and times, as beauty overcomes terror in the inevitable decay of power. Tomorrow only skeletons remain: memories of past beliefs; warnings against possible resurgence."
+heading: a collection by DRE
+description: DRE creates collections of images. Each collection is an exploration of colors and shapes. A playground where logic meets coincidence. 
+description_2: Every week, one or more collections are made available. Each collections consists of 100 images. Each image is a jpg of 1000 x 1000 pixels.
 ---
 <!-- this is the page that is generated for each individual collection -->
 <!-- there is a page per collection, displaying some metadata for that collection -->
@@ -21,7 +22,8 @@ description: "Hallucinated territories don’t exist. These images show destruct
 <h1 class="ft-h1">{{ drecolls.title }}</h1>
 <p>{{ drecolls.title }} is a collection by DRE.</p>
 <p>{{ drecolls.alt }}</p>
- <p>{{ description }}</p>
+<p>{{ description }}</p>
+<p>{{ description_2 }}</p>
 <p>{{ drecolls.credit }} on {{ drecolls.date }}, this collection is available on <a href="{{ site.platforms.opensea }}"><img src="/favicon_data/buy-it-on-opensea.svg" alt="OpenSea" width="24" height="24" style="display: inline"></img></a>.</p>
 </div>
 

@@ -8,8 +8,8 @@ allowed_extension = ".jpg"
 
 # Define the source and destination directories
 src_dir = "/Users/jjesuyver/Documents/GitHub/DrawBotsDesigns/explorations"
-dest_dir = "/Users/jjesuyver/Documents/eleventy-tests/DRE_03/src/images"
-json_dir = "/Users/jjesuyver/Documents/eleventy-tests/DRE_03/src/_data"
+dest_dir = "/Users/jjesuyver/Documents/GitHub/dre05119071/src/images"
+json_dir = "/Users/jjesuyver/Documents/GitHub/dre05119071/src/_data"
 
 # Get the list of subdirectories in the source directory
 subdirs = [d for d in os.listdir(src_dir) if os.path.isdir(os.path.join(src_dir, d))]
