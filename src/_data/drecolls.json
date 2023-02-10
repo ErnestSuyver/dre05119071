@@ -27,13 +27,13 @@
         "imgDir": "/images/turns-1/"
     },
     {
-        "title": "Orbs 2",
-        "date": "2023-02-09 08:56:19",
+        "title": "Orbs 1",
+        "date": "2023-02-09 08:58:08",
         "credit": "Created with DrawBot",
-        "linkToAuthor": "https://www.opensea.io/orbs-2",
-        "src": "orbs-2-hero.jpg",
+        "linkToAuthor": "https://www.opensea.io/orbs-1",
+        "src": "orbs-1-hero.jpg",
         "alt": "FILL THIS OUT MANUALLY",
-        "imgDir": "/images/orbs-2/"
+        "imgDir": "/images/orbs-1/"
     },
     {
         "title": "Tubes 2",
