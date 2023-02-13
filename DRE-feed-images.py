@@ -43,15 +43,17 @@ for subdir in my_subdirs:
             # file_size = os.path.getsize(file_path)
             file_creation_time = os.path.getctime(file_path)
             file_creation_date = datetime.datetime.fromtimestamp(file_creation_time).strftime('%Y-%m-%d %H:%M:%S')
+            file_creation_year = datetime.datetime.fromtimestamp(file_creation_time).strftime('%Y')
                 
             # Extract the relevant parts of the filename and folder name and create new fields
             gallery = subdir.replace("-", " ").capitalize()
             date = file_creation_date
-            credit = "Created with DrawBot"
             src = "{}-{}".format(subdir, file_count) + allowed_extension
-            linkToAuthor = "https://www.opensea.io/" + subdir + "/" + src
+            # linkToAuthor = "https://www.opensea.io/" + subdir + "/" + src
+            linkToAuthor = "https://www.opensea.io/" + subdir + "-by-dre"
             title = subdir.replace("-", " ").capitalize() + " " + str(file_count)
-            alt = "f*cked-up sh*t"
+            alt = title
+            credit = title + " by DRE ©" + str(file_creation_year)
             imgDir = "/images/" + subdir + "/"
             file_info[file] = {
                 "gallery": gallery,

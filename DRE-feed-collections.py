@@ -40,7 +40,7 @@ for subdir in subdirs:
                 date = file_creation_date
                 credit = "Created with DrawBot"
                 src = subdir + "-hero" + allowed_extension
-                linkToAuthor = "https://www.opensea.io/" + subdir
+                linkToAuthor = "https://www.opensea.io/" + subdir + "-by-dre"
                 alt = "FILL THIS OUT MANUALLY"
                 imgDir = "/images/" + subdir + "/"
                 file_info[file] = {
