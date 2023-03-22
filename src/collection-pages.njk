@@ -11,8 +11,8 @@ img: /images/home/hero1.jpg
 alt: DRE, code-generated art and design
 cardType: summary_large_image
 heading: a collection by DRE
-description: DRE creates collections of images. Each collection is an exploration of colors and shapes. A playground where logic meets coincidence. 
-description_2: Every week, one or more collections are made available. Each collections consists of 100 images. Each image is a jpg of 1000 x 1000 pixels.
+description: DRE creates collections of images. Each collection is an exploration of colors and shapes. A playground where logic meets chance. 
+description_2: Every month, one or more collections are made available. A collection may contain up to a 100 images. An image may be moving or still. Images come in different formats and sizes.
 ---
 <!-- this is the page that is generated for each individual collection -->
 <!-- there is a page per collection, displaying some metadata for that collection -->
@@ -23,8 +23,9 @@ description_2: Every week, one or more collections are made available. Each coll
 <p>{{ gallery.title }} is a collection by DRE.</p>
 <p>{{ gallery.alt }}</p>
 <p>{{ description }}</p>
-<p>{{ description_2 }}</p>
-<p>{{ gallery.credit }} on {{ gallery.date }}, this collection is available on <a href="{{ site.platforms.opensea }}"><img src="/favicon_data/buy-it-on-opensea.svg" alt="OpenSea" width="24" height="24" style="display: inline"></img></a>.</p>
+<!-- <p>{{ description_2 }}</p> -->
+<h3>{{ gallery.credit }}</h3>
+<p>Collection created on {{ gallery.date }}. At request, it can be made available on <a href="{{ site.platforms.opensea }}"><img src="/favicon_data/buy-it-on-opensea.svg" alt="OpenSea" width="24" height="24" style="display: inline"></img></a> or similar platforms.</p>
 </div>
 
 {% include "partials/image-gallery.njk" %}

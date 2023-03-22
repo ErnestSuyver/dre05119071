@@ -4,7 +4,8 @@ import shutil
 import datetime
 
 # Define the allowed file extension
-allowed_extension = ".jpg"
+allowed_extension1 = ".jpg"
+allowed_extension2 = ".jpeg"
 
 # Define the source and destination directories
 src_dir = "/Users/jjesuyver/Documents/GitHub/DrawBotsDesigns/explorations"
@@ -28,18 +29,19 @@ for subdir in subdirs:
 
     # Loop through each file and get information about it
     for file in files:
-        if file.endswith(allowed_extension):
+        if file.endswith(allowed_extension1) or file.endswith(allowed_extension2):
             if "hero" in file:
                 file_path = os.path.join(subdir_path, file)
                 file_size = os.path.getsize(file_path)
                 file_creation_time = os.path.getctime(file_path)
                 file_creation_date = datetime.datetime.fromtimestamp(file_creation_time).strftime('%Y-%m-%d %H:%M:%S')
+                file_creation_year = datetime.datetime.fromtimestamp(file_creation_time).strftime('%Y')
             
                 # Extract the relevant parts of the filename and folder name and create new fields
                 title = subdir.replace("-", " ").capitalize()
                 date = file_creation_date
-                credit = "Created with DrawBot"
-                src = subdir + "-hero" + allowed_extension
+                credit = f"{title} by DRE © {file_creation_year}"
+                src = subdir + "-hero" + allowed_extension2
                 linkToAuthor = "https://www.opensea.io/" + subdir + "-by-dre"
                 alt = "FILL THIS OUT MANUALLY"
                 imgDir = "/images/" + subdir + "/"

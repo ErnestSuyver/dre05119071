@@ -1,73 +1,136 @@
 [
     {
+        "title": "Stripes 2",
+        "date": "2023-03-17 11:34:47",
+        "credit": "Stripes 2 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/stripes-2-by-dre",
+        "src": "stripes-2-hero.jpeg",
+        "alt": "Stripes 2 sees the return of color while sticking with lines and motion.",
+        "imgDir": "/images/stripes-2/"
+    },
+    {
         "title": "Tubes 1",
         "date": "2023-02-06 18:07:57",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "tubes-1-hero.jpg",
+        "credit": "Tubes 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/tubes-1-by-dre",
+        "src": "tubes-1-hero.jpeg",
         "alt": "Tubes 1 affords a glimps in the life of ring clusters in a sea of purple.",
         "imgDir": "/images/tubes-1/"
     },
     {
+        "title": "Stripes 3",
+        "date": "2023-03-17 11:52:27",
+        "credit": "Stripes 3 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/stripes-3-by-dre",
+        "src": "stripes-3-hero.jpeg",
+        "alt": "Stripes 3 celebrates the sometimes failing parallellism of lines.",
+        "imgDir": "/images/stripes-3/"
+    },
+    {
         "title": "Spurs 2",
         "date": "2023-02-08 21:54:11",
-        "credit": "Created with DrawBot",
+        "credit": "Spurs 2 by DRE \u00a9 2023",
         "linkToAuthor": "https://www.opensea.io/spurs-2-by-dre",
-        "src": "spurs-2-hero.jpg",
+        "src": "spurs-2-hero.jpeg",
         "alt": "Spurs 2 has an explosion of color as the rings move from polyporous stripes to a vortex.",
         "imgDir": "/images/spurs-2/"
     },
     {
         "title": "Turns 1",
         "date": "2023-02-06 18:08:34",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "turns-1-hero.jpg",
+        "credit": "Turns 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/turns-1-by-dre",
+        "src": "turns-1-hero.jpeg",
         "alt": "Turns 1 sees swarming rods morph into lavender poison.",
         "imgDir": "/images/turns-1/"
     },
     {
+        "title": "Waves 1",
+        "date": "2023-03-17 14:35:00",
+        "credit": "Waves 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/waves-1-by-dre",
+        "src": "waves-1-hero.jpeg",
+        "alt": "Waves 1 has coins, dragons, and seaweed in it. ",
+        "imgDir": "/images/waves-1/"
+    },
+    {
         "title": "Orbs 1",
         "date": "2023-02-09 08:58:08",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "orbs-1-hero.jpg",
+        "credit": "Orbs 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/orbs-1-by-dre",
+        "src": "orbs-1-hero.jpeg",
         "alt": "Orbs 1 moves from bloodied bathroom tiles to psychedelic crocodile scales. Pink moons meet twisted bar charts.",
         "imgDir": "/images/orbs-1/"
     },
     {
         "title": "Tubes 2",
         "date": "2023-02-08 21:12:20",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "tubes-2-hero.jpg",
+        "credit": "Tubes 2 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/tubes-2-by-dre",
+        "src": "tubes-2-hero.jpeg",
         "alt": "Tubes 2 shows silent encounters and solitary growth.",
         "imgDir": "/images/tubes-2/"
     },
     {
+        "title": "Stripes 1",
+        "date": "2023-03-17 11:20:13",
+        "credit": "Stripes 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/stripes-1-by-dre",
+        "src": "stripes-1-hero.jpeg",
+        "alt": "Stripes 1 combines a number of approaches regarding lines, including dots, motion, and shadow.",
+        "imgDir": "/images/stripes-1/"
+    },
+    {
+        "title": "Circles 2",
+        "date": "2023-03-16 21:24:44",
+        "credit": "Circles 2 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/circles-2-by-dre",
+        "src": "circles-2-hero.jpeg",
+        "alt": "Circles 2 started as crescending marbles, but soon escalated into pseudo-Seigaiha and faux moire. The colors remained harsh, though.",
+        "imgDir": "/images/circles-2/"
+    },
+    {
         "title": "Terrors 1",
         "date": "2023-02-09 11:15:48",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "terrors-1-hero.jpg",
+        "credit": "Terrors 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/terrors-1-by-dre",
+        "src": "terrors-1-hero.jpeg",
         "alt": "Terrors 1 has grim complexity beyond life or comprehension.",
         "imgDir": "/images/terrors-1/"
     },
     {
+        "title": "Tubes 3",
+        "date": "2023-03-17 17:20:42",
+        "credit": "Tubes 3 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/tubes-3-by-dre",
+        "src": "tubes-3-hero.jpeg",
+        "alt": "Tubes 3 has even MORE worms.",
+        "imgDir": "/images/tubes-3/"
+    },
+    {
+        "title": "Spirals 1",
+        "date": "2023-03-17 21:06:38",
+        "credit": "Spirals 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/spirals-1-by-dre",
+        "src": "spirals-1-hero.jpeg",
+        "alt": "Spirals 1 focuses on circular motion, mostly in purple and green.",
+        "imgDir": "/images/spirals-1/"
+    },
+    {
         "title": "Rings 1",
         "date": "2023-02-09 11:12:04",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "rings-1-hero.jpg",
+        "credit": "Rings 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/rings-1-by-dre",
+        "src": "rings-1-hero.jpeg",
         "alt": "Rings 1 has hemoglobins meet orange rods. Fireworks in the primeval soup.",
         "imgDir": "/images/rings-1/"
     },
     {
         "title": "Spurs 1",
         "date": "2023-02-08 21:36:37",
-        "credit": "Created with DrawBot",
-        "linkToAuthor": "https://opensea.io/dre05119071",
-        "src": "spurs-1-hero.jpg",
+        "credit": "Spurs 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/spurs-1-by-dre",
+        "src": "spurs-1-hero.jpeg",
         "alt": "Spurs 1 sees cocci turn into planetary rings that strangle the life out of the sky.",
         "imgDir": "/images/spurs-1/"
     }

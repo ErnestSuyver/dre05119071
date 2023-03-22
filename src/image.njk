@@ -44,17 +44,44 @@ cardType: summary_large_image
         <main id="main" class="main-container">
             <div class="featured-img">
                 <div class="image-container">
-                    {% respimg 
-                        src=image.src,
-                        alt=image.alt,
-                        inputDir="./src",
-                        imgDir=image.imgDir,
-                        widths=[320, 480, 640, 1024],
-                        sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw",
-                        className="showcase-img",
-                        width=1024,
-                        height=768
-                    %}
+                    {% if image.src.endsWith('.jpeg') %}
+                        {% respimg 
+                            src=image.src,
+                            alt=image.alt,
+                            inputDir="./src",
+                            imgDir=image.imgDir,
+                            widths=[320, 480, 640, 1024],
+                            sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw",
+                            className="showcase-img",
+                            width=1024,
+                            height=768
+                        %}
+                    {% endif %}
+                    {% if image.src.endsWith('.webp') %}
+                        <picture>
+                            <source
+                                type="image/webp"
+                                class="moving-img"
+                                src="{{ image.imgDir }}{{ image.src }}"
+                                sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw"
+                                srcset="{{ image.imgDir }}{{ image.src }} 1024w,
+                                                {{ image.imgDir }}{{ image.src | replace('.webp', '-640.webp') }} 640w,
+                                                {{ image.imgDir }}{{ image.src | replace('.webp', '-480.webp') }} 480w,
+                                                {{ image.imgDir }}{{ image.src | replace('.webp', '-320.webp') }} 320w">
+                        <img
+                            src="{{ image.imgDir }}{{ image.src }}"
+                            alt="{{ image.alt }}"
+                            loading="lazy"
+                            class="moving-img"
+                            width="1024"
+                            height="768"
+                            sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw"
+                            srcset="{{ image.imgDir }}{{ image.src }} 1024w,
+                                            {{ image.imgDir }}{{ image.src | replace('.webp', '-640.jpeg') }} 640w,
+                                            {{ image.imgDir }}{{ image.src | replace('.webp', '-480.jpeg') }} 480w,
+                                            {{ image.imgDir }}{{ image.src | replace('.webp', '-320.jpeg') }} 320w">
+                    </picture>
+                    {% endif %}
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>
                         <h3>Part of <a href="/collections/{{ image.gallery | slug }}">{{ image.gallery }}</a></h3>
