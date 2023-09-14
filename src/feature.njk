@@ -45,17 +45,14 @@ cardType: summary_large_image
         <main id="main" class="main-container">
             <div class="featured-img">
                 <div class="image-container">
-                    {% respimg 
-                        src=image.src,
-                        alt=image.alt,
-                        inputDir="./src",
-                        imgDir=image.imgDir,
-                        widths=[320, 480, 640, 1024],
-                        sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw",
-                        className="showcase-img",
-                        width=1024,
-                        height=768
-                    %}
+                    <picture>
+                    <source
+      type="image/jpeg"
+      class="showcase-img"
+      srcset="{{ image.imgDir }}{{ image.src }}  1000w"
+    >
+    <img src="{{ image.imgDir }}{{ image.src }}" alt="{{ image.alt }}" class="showcase-img" width="1000" height="1000">
+                    </picture>
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>
                         <p><em>Special edition</em></p>

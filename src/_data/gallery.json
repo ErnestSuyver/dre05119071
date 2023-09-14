@@ -18,6 +18,69 @@
         "imgDir": "/images/circles-2/"
     },
     {
+        "title": "Circles 3",
+        "date": "2023-09-02 00:37:16",
+        "credit": "Circles 3 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/circles-3-by-dre",
+        "src": "circles-3-hero.jpeg",
+        "alt": "Circles 3 is an experiment in the addition and subtraction of two circles. Changing amplitude and period creates a wide variety of shapes.",
+        "imgDir": "/images/circles-3/"
+    },
+    {
+        "title": "Circles 4",
+        "date": "2023-09-08 17:16:38",
+        "credit": "Circles 4 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/circles-4-by-dre",
+        "src": "circles-4-hero.jpeg",
+        "alt": "Circles 4 is a collection of variations on the ampersand.",
+        "imgDir": "/images/circles-4/"
+    },
+    {
+        "title": "Circles 5",
+        "date": "2023-09-09 09:52:34",
+        "credit": "Circles 5 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/circles-5-by-dre",
+        "src": "circles-5-hero.jpeg",
+        "alt": "Circles 5 combines circles into rings or gives them moving rays. This one has lots of animations.",
+        "imgDir": "/images/circles-5/"
+    },
+    {
+        "title": "Circles 6",
+        "date": "2023-09-08 17:47:08",
+        "credit": "Circles 6 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/circles-6-by-dre",
+        "src": "circles-6-hero.jpeg",
+        "alt": "Circles 6 has more circles in rings, some turning in square-like patterns.",
+        "imgDir": "/images/circles-6/"
+    },
+    {
+        "title": "Circles 7",
+        "date": "2023-09-08 23:47:45",
+        "credit": "Circles 7 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/circles-7-by-dre",
+        "src": "circles-7-hero.jpeg",
+        "alt": "Circles 7 has interlocking circles and variations on sixteen-armed stars in circular patterns.",
+        "imgDir": "/images/circles-7/"
+    },
+    {
+        "title": "Cubes 1",
+        "date": "2023-09-09 10:53:30",
+        "credit": "Cubes 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/cubes-1-by-dre",
+        "src": "cubes-1-hero.jpeg",
+        "alt": "Cubes 1 has lots of cubes. None of them in 3D, though.",
+        "imgDir": "/images/cubes-1/"
+    },
+    {
+        "title": "Dreams 1",
+        "date": "2023-09-09 09:56:19",
+        "credit": "Dreams 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/dreams-1-by-dre",
+        "src": "dreams-1-hero.jpeg",
+        "alt": "Dreams 1 goes from slumber to deep sleep to trance.",
+        "imgDir": "/images/dreams-1/"
+    },
+    {
         "title": "Orbs 1",
         "date": "2023-02-09 08:58:08",
         "credit": "Orbs 1 by DRE \u00a9 2023",
@@ -34,6 +97,15 @@
         "src": "rings-1-hero.jpeg",
         "alt": "Rings 1 has hemoglobins meet orange rods. Fireworks in the primeval soup.",
         "imgDir": "/images/rings-1/"
+    },
+    {
+        "title": "Rust 1",
+        "date": "2023-09-09 10:36:16",
+        "credit": "Rust 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/rust-1-by-dre",
+        "src": "rust-1-hero.jpeg",
+        "alt": "Rust 1 has some experiments in pixel manipulation. It all started when looking at a rusty skip.",
+        "imgDir": "/images/rust-1/"
     },
     {
         "title": "Spirals 1",
@@ -124,6 +196,15 @@
         "src": "terrors-1-hero.jpeg",
         "alt": "Terrors 1 has grim complexity beyond life or comprehension.",
         "imgDir": "/images/terrors-1/"
+    },
+    {
+        "title": "Triangles 1",
+        "date": "2023-09-09 10:44:40",
+        "credit": "Triangles 1 by DRE \u00a9 2023",
+        "linkToAuthor": "https://www.opensea.io/triangles-1-by-dre",
+        "src": "triangles-1-hero.jpeg",
+        "alt": "Triangles 1 combines lots of triangles into many different shapes, some moving.",
+        "imgDir": "/images/triangles-1/"
     },
     {
         "title": "Tubes 1",

@@ -6,17 +6,14 @@
         <li class="gallery-item">
             <div class="image-block">
                 <a href="{{ collection.title | slug }}" aria-label="Gallery collection {{ collection.title }}">
-                {% respimg
-                    inputDir="./src",
-                    imgDir=collection.imgDir,
-                    widths=[320, 480, 640, 1024],
-                    sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 950px) 50vw, 33.3vw",
-                    src=collection.src,
-                    alt=collection.alt,
-                    width=768,
-                    height=600,
-                    className="gallery-photo"
-                %}
+                <picture>
+                    <source
+      type="image/jpeg"
+      class="showcase-img"
+      srcset="{{ collection.imgDir }}{{ collection.src }} 768w"
+    >
+    <img src="{{ collection.imgDir }}{{ collection.src }}" alt="{{ collection.alt }}" class="gallery-photo" width="768" height="600">
+                </picture>
                 </a>
                 <div class="block-details">
                     <p>{{ collection.date }}</p>
