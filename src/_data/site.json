@@ -1,13 +1,11 @@
 {   
     "author": {
         "firstName": "",
-        "lastName": "DRE",
-        "email": "dre05119071@gmail.com",
-        "twitterHandle": "dre05119071",
+        "lastName": "ERNEST",
+        "email": "ernestsuyver@gmail.com",
         "about": "code-generated art and design"
     },
     "socials": {
-        "twitter": "https://twitter.com/dre05119071",
         "instagram": "https://instagram.com/dre05119071",
         "mastodon": "https://mastodon.com/dre05119071",
         "pixelfed": "https://pixelfed.com/dre05119071"
@@ -20,19 +18,19 @@
     },
     "pageMetadata": {
         "home": {
-            "content": "DRE, code-generated art and design"
+            "content": "ERNEST, code-generated art and design"
         },
         "gallery": {
-            "content": "Specials, one-offs, and work in progress by DRE"
+            "content": "Specials, one-offs, and work in progress by ERNEST"
         },
         "collections": {
-            "content": "Collections by DRE"
+            "content": "Collections by ERNEST"
         },
         "featured": {
-            "content": "Featured images by DRE"
+            "content": "Featured images by ERNEST"
         },
         "about": {
-            "content": "About DRE, code-generated art and design"
+            "content": "About ERNEST, code-generated art and design"
         }
 
     }

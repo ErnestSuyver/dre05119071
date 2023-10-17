@@ -1,2 +1,2 @@
-# dre05119071
-site by DRE, https://dre05119071.xyz
+# Ernest makes... art
+site by ERNEST, https://ernestmakes.art
