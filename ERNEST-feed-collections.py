@@ -40,9 +40,9 @@ for subdir in subdirs:
                 # Extract the relevant parts of the filename and folder name and create new fields
                 title = subdir.replace("-", " ").capitalize()
                 date = file_creation_date
-                credit = f"{title} by DRE © {file_creation_year}"
+                credit = f"{title} by ERNEST © {file_creation_year}"
                 src = subdir + "-hero" + allowed_extension2
-                linkToAuthor = "https://www.opensea.io/" + subdir + "-by-dre"
+                linkToAuthor = "https://www.opensea.io/" + subdir + "-by-ernest"
                 alt = "FILL THIS OUT MANUALLY"
                 imgDir = "/images/" + subdir + "/"
                 file_info[file] = {
@@ -76,7 +76,7 @@ with open(os.path.join(json_dir, "gallery.json"), "w") as f:
 The idea is simple. 
 If a directory in /explorations/ in the DrawBot folder has an image with the string "hero" in the file name.
 Then a JSON object is created and written into the file.
-The file therefore contains only DRE site worth collections.
+The file therefore contains only ERNEST site worth collections.
 A folder without a hero image is not a collection.
 All that remains to be done is add descriptions for the collections.
 These are added under the `alt` key in the JSON objects.

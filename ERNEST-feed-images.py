@@ -61,14 +61,14 @@ for subdir in my_subdirs:
                 src = file
                 #print("src is", src)
                 # linkToAuthor = "https://www.opensea.io/" + subdir + "/" + src
-                linkToAuthor = "https://www.opensea.io/" + subdir + "-by-dre"
+                linkToAuthor = "https://www.opensea.io/" + subdir + "-by-ernest"
                 # print(linkToAuthor)
                 title = file.replace("-", " ").capitalize() #consider removing the date and extension
                 title = title.split()
                 title = title[0] + " " + title[1] + " " + title[2]
                 print(title)
                 alt = title
-                credit = title + " by DRE ©" + str(file_creation_year)
+                credit = title + " by ERNEST ©" + str(file_creation_year)
                 imgDir = "/images/" + subdir + "/"
                 file_info[file] = {
                     "gallery": gallery,
