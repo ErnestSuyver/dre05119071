@@ -68,7 +68,7 @@ cardType: summary_large_image
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>
                         <h3>Part of <a href="/collections/{{ image.gallery | slug }}">{{ image.gallery }}</a></h3>
-                        <p>{{ image.credit }}. Available on <a class="credit" href="{{ image.linkToAuthor }}">OpenSea</a></p>
+                        <p>{{ image.credit }}. <!-- Available on <a class="credit" href="{{ image.linkToAuthor }}">OpenSea</a>--></p>
                     </div>
                     <div class="prev-next">
                         {% if pagination.href.previous %}
